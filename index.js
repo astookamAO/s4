@@ -6,7 +6,7 @@ const port = 4000;
 const arg = (req, response) => {
 
   let greeting = "";
-  let arrayOfName = ["abab", "moh", "assetou", "ousmane"]
+  let arrayOfName = ["abab", "moh", "astou", "ousmane"]
 
     if (arrayOfName.includes(req.url.replace(/\//,''))){
         greeting = "Hello World";
